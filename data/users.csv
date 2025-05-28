@@ -1,0 +1,3 @@
+user1,User One,/bin/bash
+user2,User Two,/usr/sbin/nologin
+user3,User Three,/bin/sh

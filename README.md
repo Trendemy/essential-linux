@@ -34,5 +34,5 @@ Practice common Linux commands. Each exercise requires combining multiple comman
 6. Find the process consuming the most CPU.  
 7. Use `rsync` to back up `.conf` files, excluding any containing `*default*`.  
 8. Filter out non-duplicate lines between `access.log` and `error.log`.  
-9. Search for the word “database” inside `archive.tar.gz`.  
+9. Search for the word `dummy` inside `archive.tar.gz`.  
 10. Check and start the `nginx` service, then filter logs containing "fail".

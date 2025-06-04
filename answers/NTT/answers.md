@@ -1,8 +1,8 @@
 # Answer questions here
 # 1. Find the IP address with the most errors in access.log.
-The command(s) used: grep ' 4' access.log | awk '{print $1}' | sort | uniq -c | sort -nr | head -1
-The output: 2 192.168.1.1
-A brief explanation: Lệnh này sẽ giúp tìm ra IP có số lỗi tìm nhất trong file access.log với các mã lỗi HTTP bắt đầu là 4..
+The command(s) used: grep ' 4' access.log | awk '{print $1}' | sort | uniq -c | sort -nr | head -1<br>
+The output: 2 192.168.1.1<br>
+A brief explanation: Lệnh này sẽ giúp tìm ra IP có số lỗi tìm nhất trong file access.log với các mã lỗi HTTP bắt đầu là 4..<br>
 
 # 2. List all usernames that do not use /bin/bash from users.csv.
 The command(s) used: awk -F, '$3 != "/bin/bash" {print $1 "," $2}' users.csv<br>

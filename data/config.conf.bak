@@ -1,0 +1,4 @@
+# Sample config file
+server=localhost
+port=5050
+# End of config
